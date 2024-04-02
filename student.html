@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>what our students say</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .section1{
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            gap: 10px;
+
+        }
+        .section1 div:nth-child(even)
+        {
+            background-color: aquamarine;
+            padding:10px;
+        }
+        .section1 div:nth-child(odd)
+        {
+            background-color: rgb(117, 129, 125);
+            padding:10px;
+        }
+        .heading-1
+        {
+           grid-column: 1/3; 
+           grid-row: 1/3        
+        }
+        .heading-2
+        {
+            grid-row: 1/5;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="section1">
+        <div class="heading-1">
+            <h1>Heading 1</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aspernatur repudiandae beatae fuga. Magni distinctio eligendi architecto quibusdam iure, sed, voluptate harum soluta blanditiis obcaecati optio perspiciatis! Tenetur, magni cum.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aspernatur repudiandae beatae fuga. Magni distinctio eligendi architecto quibusdam iure, sed, voluptate harum soluta blanditiis obcaecati optio perspiciatis! Tenetur
+                magni cum.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aspernatur repudiandae beatae fuga. Magni distinctio eligendi architecto quibusdam iure, sed, voluptate harum soluta blanditiis obcaecati optio perspiciatis! Tenetur, magni cum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aspernatur repudiandae beatae fuga. Magni distinctio eligendi architecto quibusdam iure, sed, voluptate harum soluta blanditiis obcaecati optio perspiciatis! Tenetur, magni cum.
+            </p>
+        </div>
+        <div class="heading-2">
+            <h1>heading 2</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur eaque animi ea, earum modi repudiandae aut ullam voluptate mollitia, fuga pariatur iste eos, dicta placeat asperiores? Accusamus quos iure iste!</p>
+        </div>
+        <div class="heading-3">
+            <h1>heading 3</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil officia consequuntur, quaerat fuga ullam unde iste aspernatur provident, qui eius doloremque, obcaecati eveniet facere eligendi? Delectus architecto molestiae ullam quo.</p>
+        </div>
+        <div class="heading-4">
+            <h1>Heading 1</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aspernatur repudiandae beatae fuga. Magni distinctio eligendi architecto quibusdam iure, sed, voluptate harum soluta blanditiis obcaecati optio perspiciatis! Tenetur, magni cum.</p>
+        </div>
+        <div class="heading-5">
+            <h1>heading 2</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur eaque animi ea, earum modi repudiandae aut ullam voluptate mollitia, fuga pariatur iste eos, dicta placeat asperiores? Accusamus quos iure iste!</p>
+        </div>
+        <div class="heading-6">
+            <h1>heading 3</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil officia consequuntur, quaerat fuga ullam unde iste aspernatur provident, qui eius doloremque, obcaecati eveniet facere eligendi? Delectus architecto molestiae ullam quo.</p>
+        </div>
+    </section>
+    
+</body>
+</html>

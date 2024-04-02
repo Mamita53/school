@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Navigation{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: blueviolet;
+    height: 42px;
+    width: 100%;
+}
+.logo{
+    padding: 10px 20px;
+}
+.nav{
+    padding: 10px 20px;
+    text-decoration: none;
+}
